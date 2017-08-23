@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import '../App.css';
+import EarthquakeInfo from './EarthquakeInfo'
+import EarthquakeList from './EarthquakeList'
 
 class App extends Component {
   render() {
@@ -10,6 +12,8 @@ class App extends Component {
           Earthquakes!
           </div>
         </div>
+        <EarthquakeInfo />
+        <EarthquakeList />
       </div>
     );
   }
